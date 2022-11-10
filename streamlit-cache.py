@@ -3,7 +3,7 @@ import pandas as pd
 
 st.title('Dataframes')
 
-DATA_URL = 'dataset.csv'
+DATA_URL = 'https://raw.githubusercontent.com/juan1luis/streamlit/master/dataset.csv'
 
 @st.cache
 def load_data(nrows):
